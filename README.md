@@ -1,7 +1,14 @@
+![Atom](https://cloud.githubusercontent.com/assets/72919/2874231/3af1db48-d3dd-11e3-98dc-6066f8bc766f.png)
+
+Atom is a hackable text editor for the 21st century, built on [atom-shell](http://github.com/atom/atom-shell), and based on everything we love about our favorite editors. We designed it to be deeply customizable, but still approachable using the default configuration.
+
+Visit [atom.io](https://atom.io) to learn more.
+
 Atom-shortcuts-cheat-sheet
 ==========================
 
-Atom shortcuts cheat sheet.
+A shortcuts cheat sheet for Atom.
+
 
 ## Symbol to the keys
 
@@ -219,4 +226,3 @@ Atom shortcuts cheat sheet.
 | ⌃-⇧-⌘-3    | Copy Screenshot             |
 | ⇧-⌘-4      | Save Screenshot (Selection) |
 | ⌃-⇧-⌘-4    | Copy Screenshot (Selection) |
-
