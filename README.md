@@ -85,9 +85,10 @@ A shortcuts cheat sheet for Atom.
 | Keystrokes | Task                                      |
 | ---------- | -----                                     |
 | ⌘-Z        | Undo                                      |
-| ⌘-Y        | Cut                                       |
-| ⌘-X        | Copy                                      |
-| ⌘-C        | Paste                                     |
+| ⌘-Y        | Rudo                                      |
+| ⌘-X        | Cut                                       |
+| ⌘-C        | Copy                                      |
+| ⌘-V        | Paste                                     |
 | ⌃-K        | Cut to End of Line                        |
 | ⌥-⌫        | Delete to Beginning of Word               |
 | ⌥-D        | Delete to End of Word                     |
@@ -101,7 +102,6 @@ A shortcuts cheat sheet for Atom.
 | ⌘-⇧-D      | Duplicate Line                            |
 | ⌘-/        | Toggle Line Comments                      |
 | ⌃-space    | Toggle Autocomplete                       |
-| ⌃-⇧-U      | Select Encoding                           |
 | ⌃-⇧-L      | Select Grammar                            |
 
 
@@ -141,15 +141,13 @@ A shortcuts cheat sheet for Atom.
 
 | Keystrokes | Task                                   |
 | ---------- | -----                                  |
-| ⌘-⌃-B      | Select Left Character                  |
-| ⌘-⌃-F      | Select Right Character                 |
 | ⌥-⇧-B      | Select to Beginning of Word            |
 | ⌥-⇧-F      | Select to End of Word                  |
 | ⌥-⇧-←      | Select to Beginning of Word            |
 | ⌥-⇧-→      | Select to End of Word                  |
 | ⌃-⇧-W      | Select Entire Word                     |
-| ⌥-⇧-N      | Select to Same Position, Next Line     |
-| ⌥-⇧-P      | Select to Same Position, Previous Line |
+| ⌃-⇧-P      | Select to Same Position, Previous Line |
+| ⌃-⇧-N      | Select to Same Position, Next Line     |
 | ⌘-⇧-←      | Select to First Character of Line      |
 | ⌘-⇧-→      | Select to Last Character of Line       |
 | ⌘-⇧-↑      | Select to Top of File                  |
@@ -157,6 +155,8 @@ A shortcuts cheat sheet for Atom.
 | ⌘-A        | Select All                             |
 | ⌘-D        | Select Current Word                    |
 | ⌘-L        | Select Current Line                    |
+| ⌃-⇧-↑      | Visual Select (Previous Line)          |
+| ⌃-⇧-↓      | Visual Select (Next Line)              |
 
 
 ## Find & Replace
@@ -188,7 +188,11 @@ A shortcuts cheat sheet for Atom.
 | ⌃-0        | Open Tree View              |
 | ⌘-T        | Fuzzy Find Files            |
 | A          | Add a File                  |
-| M          | Move a File                 |
+| ⇧-A        | Add a Folder                |
+| M          | Move a File (Rename file)   |
+| ⌘-C        | Copy a File                 |
+| ⌘-V        | Paste a File                |
+| ⌘-X        | Cut a File                  |
 | ⌫          | Delete a File               |
 
 
@@ -200,11 +204,24 @@ A shortcuts cheat sheet for Atom.
 | ⌘-⇧-R      | Search for Symbol Across Project |
 
 
+## Encoding Selector
+
+| Keystrokes | Task            |
+| ---------- | -----           |
+| ⌃-⇧-U      | Select Encoding |
+
+
+## Linter
+
+| Keystrokes | Task       |
+| ---------- | -----      |
+| ⌘-⌃-L      | Lint check |
+
 ## Markdown Preview
 
-| Keystrokes | Task                             |
-| ---------- | -----                            |
-| ⌃-⇧-M      | Toggle Markdown Preview          |
+| Keystrokes | Task                    |
+| ---------- | -----                   |
+| ⌃-⇧-M      | Toggle Markdown Preview |
 
 
 ## Terminal
@@ -212,10 +229,10 @@ A shortcuts cheat sheet for Atom.
 | Keystrokes | Task                             |
 | ---------- | -----                            |
 | ⌃-⌥-T      | Open New Terminal in New Tab     |
-| ⌃-⌥-→      | Open New Terminal in Right Pane  |
-| ⌃-⌥-↓      | Open New Terminal in Bottom Pane |
 | ⌃-⌥-↑      | Open New Terminal in Top Pane    |
+| ⌃-⌥-↓      | Open New Terminal in Bottom Pane |
 | ⌃-⌥-←      | Open New Terminal in Left Pane   |
+| ⌃-⌥-→      | Open New Terminal in Right Pane  |
 
 
 ## Screenshots
